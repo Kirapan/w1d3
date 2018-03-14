@@ -1,3 +1,5 @@
+var input = process.argv[2];
+console.log(input);
 function countLetters(input) {
   var result = {};
   input = input.split(' ').join('').split('');
@@ -5,4 +7,4 @@ function countLetters(input) {
     result[input[i]] = result[input[i]]? result[input[i]] + 1 : 1;
   } return result;
 }
-console.log(countLetters("lighthouse in the house"));
+console.log(countLetters(input));

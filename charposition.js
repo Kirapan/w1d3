@@ -1,3 +1,5 @@
+var input = process.argv[2];
+
 function charPosition(input) {
   var result = {};
   input = input.split(' ').join('').split('');
@@ -10,4 +12,4 @@ function charPosition(input) {
     }
   } return result;
 }
-console.log(charPosition("lighthouse in the house"));
+console.log(charPosition(input));

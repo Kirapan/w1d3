@@ -1,5 +1,5 @@
 var input = process.argv[2];
-console.log(input);
+// console.log(input);
 function countLetters(input) {
   var result = {};
   input = input.split(' ').join('').split('');
